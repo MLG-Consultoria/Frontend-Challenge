@@ -1,0 +1,61 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #ffffff;
+}
+
+/* Estiliza o topo da página */
+.topo {
+background-color: #ffffff;
+padding: 10px 20px;
+color: white;
+}
+
+/* Container das logos */
+.logo-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.logo1 {
+width: 200px;
+height: auto;
+height: 200px;
+}
+
+.logo2 {
+width: 250px;
+height: auto;
+height: 150px;
+}
+
+.espaco-central {
+flex: 1;
+}
+
+/* Barra de navegação */
+.barra-nav {
+display: flex;
+justify-content: center;
+gap: 30px;
+background-color: #c3c3c3;
+padding: 10px 0;
+}
+
+.barra-nav a {
+color: rgb(50, 50, 50);
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s;
+}
+
+.barra-nav a:hover {
+color: #00ccff;
+}

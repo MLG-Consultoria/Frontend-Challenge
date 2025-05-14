@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+	<!--TA FALTANDO CENTRALIZAR A SECTION DE CONTATO!-->
     <head>
 		<meta charset="UTF-8">
 		<title>Contato</title>
@@ -19,8 +20,20 @@
 				<a href="contato.html">Contato</a>
             </nav>
 		</header>
-
- <!--INSIRA AQUI QUALQUER COISA DE ADICIONAL!-->
+        <section class="contato">
+            <h2>Contato</h2>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label>Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+                    <label>Mensagem</label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                    <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
+                </form>
+        </section>
         <footer class="rodape">
             <p>&copy; 2025 Projeto Auxilio Hc (nome ficticio) — Todos os direitos reservados.</p>
             <p>Desenvolvido por Giovane Amato e Lucas Vieira e Matheus Roque.</p>
