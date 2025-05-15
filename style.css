@@ -123,3 +123,28 @@ form button:hover{
     color: #101026;
     border-radius: 16px;
 }
+
+/* Rodapé */
+.rodape {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.rodape .redes-sociais {
+    margin-top: 10px;
+}
+
+.rodape .redes-sociais a {
+    margin: 0 10px;
+    color: #00ccff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.rodape .redes-sociais a:hover {
+    color: #ffffff;
+}
