@@ -46,7 +46,7 @@ flex: 1;
 display: flex;
 justify-content: center;
 gap: 30px;
-background-color: #c3c3c3;
+background-color: #1c7cb4;
 padding: 10px 0;
 }
 
@@ -58,7 +58,7 @@ transition: color 0.3s;
 }
 
 .barra-nav a:hover {
-color: #00ccff;
+color: #ffffff;
 }
 
 /*Formulário de contato */
@@ -150,3 +150,58 @@ form button:hover{
 .rodape .redes-sociais a:hover {
     color: #ffffff;
 }
+
+
+/*Titulo "Integrantes"*/
+
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Container de fotos */
+.card-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2%;
+    background-color: #f4f4f4;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 1rem rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Cada card */
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.05);
+    gap: 1rem;
+    flex-wrap: wrap; /* para quebrar a linha se faltar espaço */
+  }
+  
+  /* Imagem com moldura */
+  .card img {
+    flex-shrink: 0;
+    width: 15%;
+    min-width: 60px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 2px solid #000000;
+  }
+  
+  /* Texto */
+  .card p {
+    flex: 1;
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    word-break: break-word;
+  }
+  
