@@ -1,46 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-		<meta charset="UTF-8">
-		<title>Contato</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-		<body>
-			<header class="topo">
-				<div class="logo-container">
-					<img src="images/Logos/logo_HC.jpg" alt="Logo HC" class="logo1">
-				<div class="espaco-central"></div>
-					<img src="images/Logos/Logo_medicinaUsp.jpg" alt="Logo USP Medicina" class="logo2">
-				</div>
-			<nav class="barra-nav">
-				<a href="index.html">Home</a>
-				<a href="integrantes.html">Integrantes</a>
-				<a href="faq.html">FAQ</a>
-				<a href="contato.html">Contato</a>
-            </nav>
-		</header>
-        <section class="contato">
-            <h2>Contato</h2>
-                <form action="https://api.staticforms.xyz/submit" method="post">
-                    <label>Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
-                    <label>Email</label>
-                    <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
-                    <label>Mensagem</label>
-                    <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                    <button type="submit">Enviar</button>
-                    <input type="hidden" name="accessKey" value="042be0d3-84fa-4ae8-aaed-2434cda72cac">
-                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/obrigado.html">
-                </form>
-        </section>
-        <footer class="rodape">
-            <p>&copy; 2025 Projeto Auxilio Hc (nome ficticio) — Todos os direitos reservados.</p>
-            <p>Desenvolvido por Giovane Amato e Lucas Vieira e Matheus Roque.</p>
-        <div class="redes-sociais">
-            <a href="#" title="Instagram">Instagram</a>
-            <a href="#" title="LinkedIn">LinkedIn</a>
-            <a href="mailto:contato@projetoviagem.com" title="E-mail">E-mail</a>
-        </div>
-        </footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="topo-nav.css" />
+    <link rel="stylesheet" href="form-contato.css" />
+    <link rel="stylesheet" href="rodape.css" />
+  </head>
+  <body>
+    <!-- Topo com logos -->
+    <header class="topo">
+      <div class="logo-container">
+        <img src="images/Logos/logo_HC.jpg" alt="Logo HC" class="logo1" />
+        <img
+          src="images/Logos/Logo_medicinaUsp.jpg"
+          alt="Logo Medicina USP"
+          class="logo2"
+        />
+      </div>
+    </header>
+
+    <!-- Barra de navegação -->
+    <nav class="menu">
+      <a href="index.html"><div class="menu-item">Home</div></a>
+      <a href="integrantes.html"><div class="menu-item">Integrantes</div></a>
+      <a href="faq.html"><div class="menu-item">FAQ</div></a>
+      <a href="contato.html"><div class="menu-item">Contato</div></a>
+    </nav>
+    <section class="contato">
+      <h2>Contato</h2>
+      <form id="form-contato">
+        <label>Nome</label>
+        <input
+          type="text"
+          id="nome"
+          name="name"
+          placeholder="Digite seu nome"
+          autocomplete="off"
+          required
+        />
+
+        <label>Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Digite seu email"
+          autocomplete="off"
+          required
+        />
+
+        <label>Mensagem</label>
+        <textarea
+          id="mensagem"
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Digite sua mensagem"
+          required
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer class="rodape">
+      <p>&copy; 2025 Projeto Chatbot Hc — Todos os direitos reservados.</p>
+      <p>Desenvolvido por Giovane Amato e Lucas Vieira e Matheus Roque.</p>
+      <div class="redes-sociais">
+        <a href="#" title="Instagram">Instagram</a>
+        <a href="#" title="LinkedIn">LinkedIn</a>
+        <a href="mailto:contato@projetoviagem.com" title="E-mail">E-mail</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
