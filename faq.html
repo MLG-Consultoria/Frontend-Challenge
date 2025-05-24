@@ -3,28 +3,70 @@
     <head>
 		<meta charset="UTF-8">
 		<title>FAQ</title>
-		<link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="topo-nav.css">
+		<link rel="stylesheet" href="topo-nav.css">
+		<link rel="stylesheet" href="faq.css">
 		<link rel="stylesheet" href="rodape.css">
-	</head>
-		<body>
-			<header class="topo">
-				<div class="logo-container">
-					<img src="images/Logos/logo_HC.jpg" alt="Logo HC" class="logo1">
-				<div class="espaco-central"></div>
-					<img src="images/Logos/Logo_medicinaUsp.jpg" alt="Logo USP Medicina" class="logo2">
-				</div>
-			<nav class="barra-nav">
-				<a href="index.html">Home</a>
-				<a href="integrantes.html">Integrantes</a>
-				<a href="faq.html">FAQ</a>
-				<a href="contato.html">Contato</a>
-            </nav>
-		</header>
 
- <!--INSIRA AQUI QUALQUER COISA DE ADICIONAL!-->
+	<!-- Topo com logos -->
+    <header class="topo">
+        <div class="logo-container">
+            <img src="images/Logos/logo_HC.jpg" alt="Logo HC" class="logo1">
+            <img src="images/Logos/Logo_medicinaUsp.jpg" alt="Logo Medicina USP" class="logo2">
+        </div>
+    </header>
+
+    <!-- Barra de navegação -->
+    <nav class="menu">
+        <a href="index.html"><div class="menu-item">Home</div></a>
+        <a href="integrantes.html"><div class="menu-item">Integrantes</div></a>
+        <a href="faq.html"><div class="menu-item">FAQ</div></a>
+        <a href="contato.html"><div class="menu-item">Contato</div></a>
+    </nav>
+	<!--Topo do faq-->
+	<section class="faq-topo">
+		<h1>Seja Bem-Vindo ao nosso FAQ</h1>
+		<h2>Precisa de ajuda?</h2>
+		<input type="text" placeholder="Encontre respostas para suas perguntas">
+	</section>
+	<section class="faq-conteudo">
+		<h2>Perguntas frequentes</h2>
+		<div class="faq-lista">
+				<div class="faq-item">
+					<button class="faq-pergunta">❓O que é o Projeto Chatbot HC?</button>
+					<div class="faq-resposta">O Projeto Chatbot HC é uma solução criada para ajudar usuários do Hospital das Clínicas a se conectarem corretamente às teleconsultas. Ele atua como um suporte intermediário que orienta os pacientes no processo de acesso e no correto posicionamento da câmera antes da consulta.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓Por que esse projeto foi criado?</button>
+					<div class="faq-resposta">Porque muitos pacientes tinham dificuldades para se conectar à teleconsulta ou não conseguiam posicionar a câmera corretamente, o que prejudicava a avaliação médica. Isso gerava perda de tempo e afetava a qualidade do atendimento.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓O projeto ajuda durante a consulta também?</button>
+					<div class="faq-resposta">Não diretamente. A principal função é preparar o usuário antes da consulta, garantindo que ele entre na sala virtual com tudo pronto para que o médico possa iniciar o atendimento sem atrasos.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓Como isso ajuda a reduzir o absenteísmo?</button>
+					<div class="faq-resposta">Ao facilitar o acesso e preparar melhor o paciente para a consulta, o projeto evita que os usuários desistam ou se atrasem por dificuldades técnicas. Isso contribui diretamente para a meta de reduzir a taxa de absenteísmo para menos de 10%.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓Quem pode usar esse serviço?</button>
+					<div class="faq-resposta">Qualquer usuário do sistema de teleconsulta do Hospital das Clínicas que tenha dificuldades com tecnologia, especialmente aqueles com pouca familiaridade com aplicativos e smartphones.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓Preciso instalar algum aplicativo novo?</button>
+					<div class="faq-resposta">Não. A proposta é que o suporte seja integrado ao fluxo já existente do app do HC, apenas facilitando e orientando o usuário de forma mais clara.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓O que acontece se eu ainda tiver problemas para me conectar?</button>
+					<div class="faq-resposta">O projeto inclui orientações claras e simples, mas se ainda houver dificuldades, haverá um canal de suporte para contato com a equipe técnica.</div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-pergunta">❓Esse projeto substitui o app do HC?</button>
+					<div class="faq-resposta">Não. Ele complementa o app do HC, atuando como uma ponte para facilitar o uso e melhorar a experiência do paciente com as teleconsultas.</div>
+				</div>
+		</div>
+		</section>
         <footer class="rodape">
-            <p>&copy; 2025 Projeto Auxilio Hc (nome ficticio) — Todos os direitos reservados.</p>
+            <p>&copy; 2025 Projeto Chatbot Hc — Todos os direitos reservados.</p>
             <p>Desenvolvido por Giovane Amato e Lucas Vieira e Matheus Roque.</p>
         <div class="redes-sociais">
             <a href="#" title="Instagram">Instagram</a>
@@ -32,5 +74,7 @@
             <a href="mailto:contato@projetoviagem.com" title="E-mail">E-mail</a>
         </div>
         </footer>
+
+		<script src="script.js"></script>
 	</body>
 </html>
