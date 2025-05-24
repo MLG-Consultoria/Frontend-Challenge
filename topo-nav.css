@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #ffffff;
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+/* Topo com logos */
+.topo {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    width: 250px;
+    height: auto;
+}
+
+.logo2 {
+    width: 200px;
+    height: auto;
+}
+
+/* Barra de navegação */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    border-bottom: 2px solid #1c7cb4;
+}
+
+.menu-item {
+    padding: 15px 25px;
+    border-right: 1px solid #ddd;
+    color: #444;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu-item:last-child {
+    border-right: none;
+}
+
+/* Efeito hover via CSS como fallback */
+.menu-item:hover {
+    background-color: #e0f1f8;
+}
