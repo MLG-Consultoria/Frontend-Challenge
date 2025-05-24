@@ -61,95 +61,6 @@ transition: color 0.3s;
 color: #ffffff;
 }
 
-/*Formulário de contato */
-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px 45px;
-    background: #1c7cb4;
-    width: 500px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    margin: 40px auto;
-}
-section h2{
-    color: #f5f5f5;
-    font-size: 2.5rem;
-    margin: 2rem;
-}
-section form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-form label{
-    color: #f5f5f5;
-    font-size: 17px;
-    margin-bottom: 4px;
-}
-form input{
-    padding: 15px;
-    outline: none;
-    border: 0;
-    margin-bottom: 20px;
-    font-size: 15px;
-    transition: all 0.5s;
-}
-form input:focus{
-    border-radius: 16px;
-}
-form textarea{
-    padding: 10px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 30px;
-    transition: all 0.5s;
-}
-form textarea:focus{
-    border-radius: 16px;
-}
-form button{
-    padding: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    background: transparent;
-    border: 2px solid #f5f5f5;
-    color: #f5f5f5;
-    transition: all 1s;
-    margin-bottom: 20px;
-}
-form button:hover{
-    background: #f5f5f5;
-    color: #101026;
-    border-radius: 16px;
-}
-
-/* Rodapé */
-.rodape {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 14px;
-    margin-top: 40px;
-}
-
-.rodape .redes-sociais {
-    margin-top: 10px;
-}
-
-.rodape .redes-sociais a {
-    margin: 0 10px;
-    color: #00ccff;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.rodape .redes-sociais a:hover {
-    color: #ffffff;
-}
 
 /* Container de fotos */
 .card-container {
@@ -164,7 +75,7 @@ form button:hover{
     flex-direction: column;
     gap: 1.5rem;
   }
-  
+
   /* Cada card */
   .card {
     display: flex;
@@ -176,7 +87,7 @@ form button:hover{
     gap: 1rem;
     flex-wrap: wrap; /* para quebrar a linha se faltar espaço */
   }
-  
+
   /* Imagem com moldura */
   .card img {
     flex-shrink: 0;
@@ -187,7 +98,7 @@ form button:hover{
     border-radius: 0.5rem;
     border: 2px solid #1c7cb4;
   }
-  
+
   /* Texto */
   .card p {
     flex: 1;
