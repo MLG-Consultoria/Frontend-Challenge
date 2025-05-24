@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-		<meta charset="UTF-8">
-		<title>Página inicial</title>
-		<link rel="stylesheet" href="style.css">
+	<head>
+	<meta charset="UTF-8">
+	<title>Página inicial</title>
+	<link rel="stylesheet" href="topo-nav.css">
+	<link rel="stylesheet" href="index-conteudo.css">
+	<link rel="stylesheet" href="rodape.css">
 	</head>
-		<body>
-			<header class="topo">
-				<div class="logo-container">
-					<img src="images/Logos/logo_HC.jpg" alt="Logo HC" class="logo1">
-				<div class="espaco-central"></div>
-					<img src="images/Logos/Logo_medicinaUsp.jpg" alt="Logo USP Medicina" class="logo2">
-				</div>
-			<nav class="barra-nav">
-				<a href="index.html">Home</a>
-				<a href="integrantes.html">Integrantes</a>
-				<a href="faq.html">FAQ</a>
-				<a href="contato.html">Contato</a>
-            </nav>
+	<body>
+		<!-- Topo com logos -->
+		<header class="topo">
+			<div class="logo-container">
+				<img src="images/Logos/logo_HC.jpg" alt="Logo HC (Hospital das Clínicas)" class="logo1">
+				<img src="images/Logos/Logo_medicinaUsp.jpg" alt="Logo Medicina USP (Universidade de São Paulo)" class="logo2">
+			</div>
 		</header>
 
- <!--INSIRA AQUI QUALQUER COISA DE ADICIONAL!-->
-        <footer class="rodape">
-            <p>&copy; 2025 Projeto Auxilio Hc (nome ficticio) — Todos os direitos reservados.</p>
-            <p>Desenvolvido por Giovane Amato e Lucas Vieira e Matheus Roque.</p>
-        <div class="redes-sociais">
-            <a href="#" title="Instagram">Instagram</a>
-            <a href="#" title="LinkedIn">LinkedIn</a>
-            <a href="mailto:contato@projetoviagem.com" title="E-mail">E-mail</a>
-        </div>
-        </footer>
+		<!-- Barra de navegação -->
+		<nav class="menu">
+			<a href="index.html"><div class="menu-item">Home</div></a>
+			<a href="integrantes.html"><div class="menu-item">Integrantes</div></a>
+			<a href="faq.html"><div class="menu-item">FAQ</div></a>
+			<a href="contato.html"><div class="menu-item">Contato</div></a>
+		</nav>
+
+		<!-- CONTEÚDO PRINCIPAL -->
+		<div class="imagem-central">
+			<div class="imagem-com-texto">
+				<img src="images/Outros/Imagem-lab.jpg" alt="Imagem Central que tem um laboratório de fundo">
+				<div class="texto-central">Seja bem-vindo ao nosso projeto HC</div>
+			</div>
+		</div>
+
+
+		<div class="texto-sobre">
+			<div class="card">
+				<h2>Sobre o projeto</h2>
+				<p>Este projeto é uma iniciativa para desenvolver um Chatbot que possa auxiliar os usuários com informações sobre o HC</p>
+			</div>
+			<div class="card">
+				<h2>Objetivos</h2>
+				<p>Nosso objetivo é reduzir a taxa de absenteísmo dos usuários para menos de 10%.</p>
+			</div>
+		</div>
+
+	<!-- RODAPÉ -->
+		<footer class="rodape">
+			<p>&copy; 2025 Projeto Chatbot Hc — Todos os direitos reservados.</p>
+			<p>Desenvolvido por Giovane Amato e Lucas Vieira e Matheus Roque.</p>
+			<div class="redes-sociais">
+				<a href="#" title="Instagram">Instagram</a>
+				<a href="#" title="LinkedIn">LinkedIn</a>
+				<a href="#" title="E-mail">E-mail</a>
+			</div>
+		</footer>
+	<script src="script.js"></script>
 	</body>
 </html>
