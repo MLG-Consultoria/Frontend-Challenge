@@ -1,0 +1,91 @@
+/* Container geral para centralizar */
+.imagem-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.imagem-com-texto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    border: 5px solid #1c7cb4;
+}
+
+/* Imagem responsiva */
+.imagem-com-texto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Texto centralizado SOBRE a imagem */
+.texto-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    max-width: 700px;
+    background-color: #f4f6f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto; /* Centraliza horizontalmente */
+}
+
+/* Estilo dos cards */
+.card {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Título dos cards */
+.card h2 {
+    color: #1c7cb4;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+/* Texto dos cards */
+.card p {
+    color: #555555;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Container da imagem com texto */
+.imagem-com-texto {
+    position: relative;
+    max-width: 90%;
+}
+
+/* Imagem com borda arredondada */
+.imagem-com-texto img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+}
